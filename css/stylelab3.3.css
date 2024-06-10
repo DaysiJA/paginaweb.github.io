@@ -1,0 +1,351 @@
+
+
+.fondo{
+    background-color: rgba(190, 182, 189, 0.586);
+}
+
+.titulo0 {
+    position: absolute;
+    top: 35px;
+    left: 600px;
+    font-size: 170%;
+    color: rgb(53, 53, 123);
+}
+
+header {
+    background-color: #ffffff;
+}
+
+nav {
+    height: 60px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-block;
+    padding: 18px;
+}
+
+nav ul li {
+    float: left;
+    margin-top: 80px;
+}
+
+nav ul li a {
+    top: 250px;
+    color: rgb(185, 181, 181);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 50px;
+}
+
+nav ul li a:hover {
+    background-color: #0a2a5a;
+    color: white;
+}
+
+.titulo2 {
+    position: absolute;
+    top: 40px;
+    left: 680px;
+    font-size: 130%;
+}
+
+html,
+body {
+    height: 95%;
+    margin: 0;
+    padding: 0;
+}
+
+.base {
+    background-color: #f4f5f7f0;
+    position: relative;
+    left: 0px;
+    height: 170%;
+    width: 100%;
+}
+
+.articulo {
+    position: relative;
+    width: 80%;
+    margin: 120px auto;
+    padding: 135px 0px 0px 0px;
+    font-size: 97%;
+    color: #514f4f;
+    box-shadow: 20px 20px 20px rgba(90, 90, 90, 0.9), 5px 5px 10px rgba(202, 194, 194, 0.5); /* Dos sombras: una sombra oscura hacia la derecha y hacia abajo, y otra sombra clara hacia la izquierda y hacia arriba */
+
+}
+
+.articulo1 {
+    background-color: #c7ccd17b;
+    padding: 20px 35px 15px 15%;
+    margin-bottom: 6%;
+}
+
+.imagen1 {
+    position: absolute;
+    top: 13.2%;
+    left: -1px;
+}
+
+.imagen2 {
+    position: absolute;
+    top: 45.5%;
+    left: -1px;
+}
+
+.imagen3 {
+    position: absolute;
+    top: 74.5%;
+    left: -1px;
+}
+
+.textoarticulo {
+    position: relative;
+    left: 145px;
+}
+
+.fecha {
+    position: absolute;
+    bottom: -20px;
+    font-weight: bold;
+    color: #c3bebe;
+    font-size: 15px;
+    left: 0px;
+    top: 30px;
+    font-style: italic;
+}
+
+#boton1 {
+    font-size: 70%;
+    position: absolute;
+    top: 33%;
+    left: 27%;
+    padding: 15px 80px;
+    border: none;
+    color: white;
+    background-color: rgb(155, 140, 152);
+    border-radius: 5px;
+}
+
+#boton2 {
+    font-size: 70%;
+    position: absolute;
+    top: 62%;
+    left: 27%;
+    padding: 15px 80px;
+    border: none;
+    color: white;
+    background-color: rgb(155, 140, 152);
+    border-radius: 5px;
+}
+
+#boton3 {
+    font-size: 70%;
+    position: absolute;
+    top: 94.5%;
+    left: 27%;
+    padding: 15px 80px;
+    border: none;
+    color: white;
+    background-color: rgb(155, 140, 152);
+    border-radius: 5px;
+}
+
+.shoes1 {
+    position: absolute;
+    top: 1400px;
+    left: 700px;
+    transform: scale(1.2);
+}
+
+form{
+    position: absolute;
+    top: 1370px;
+    left:70px;
+    background-color: #8e8e9839;
+    padding : 0px;
+    padding-right: 170px;
+    border-radius: 50px;
+
+}
+
+.formulario1 {
+    color: #aaacaf;
+    font-size: 39px;
+}
+
+#nombre {
+    position: relative;
+    height: 45px;
+    width: 585px;
+    left: 15%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#nombre::placeholder {
+    font-size: 115%;
+}
+
+#e-mail {
+    position: relative;
+    height: 45px;
+    width: 585px;
+    left: 15%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#e-mail::placeholder {
+    font-size: 115%;
+}
+
+#mensaje {
+    position: relative;
+    height: 120px;
+    width: 585px;
+    left: 15%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#mensaje::placeholder {
+    position: relative;
+    top: -33px;
+    font-size: 115%;
+}
+
+.user {
+    position: absolute;
+    top: 27px;
+    left: 110px;
+    transform: scale(1.8);
+}
+
+.carta {
+    position: absolute;
+    top: 100px;
+    left: 110px;
+    transform: scale(1.6);
+}
+
+.lapiz {
+    position: absolute;
+    top: 170px;
+    left: 110px;
+    transform: scale(1.5);
+}
+
+#edad{
+    position: relative;
+    height: 28px;
+    width: 80px;
+    left: 35%;
+    top: 26px;
+    
+   
+    
+}
+
+#textoedad {
+    
+    position: absolute;
+    top: 300px;
+    left: 145px;
+    font-size: 105%; 
+    color: #717374;
+
+}
+.iconoedad{
+    position: absolute;
+    top: 300px;
+    left: 110px;
+    transform: scale(1.5);
+}
+
+.sexo{
+    position: relative;
+    left: 83%;
+    top: -10px;
+    color: #717374;
+    font-size: 90%; 
+}
+#sexo{
+    position: absolute;
+    top: 300px;
+    left: 435px;
+    font-size: 100%; 
+    color: #717374;
+}
+
+#iconosexo{
+    position: absolute;
+    top: 10px;
+    left: -80px;
+    transform: scale(1.5);
+}
+
+#telefono{
+    position: relative;
+    height: 40px;
+    width: 585px;
+    left: 15%;
+    border: 1px solid #c2c1c1;
+    font-size: 39%;
+
+}
+#movil{
+    position: absolute;
+    top: 365px;
+    left: 110px;
+    transform: scale(1.4);
+}
+#boton4 {
+    font-size: 120%;
+    position: absolute;
+    top: 110%;
+    left: 15.5%;
+    padding: 20px 260px;
+    border: none;
+    color: white;
+    background-color: rgb(155, 140, 152);
+    border-radius: 5px;
+}
+
+.azul2 {
+    background-color: rgba(121, 117, 120, 0.736);
+    position: absolute;
+    top: 1920px;
+    width: 100%;
+    height: 10%;
+}
+
+.pie {
+    position: absolute;
+    top: 18px;
+    font-size: 105%;
+    color: #cfc6c6;
+}
+
+.contactanos {
+    color: #5e5e6ee5;
+    position: absolute;
+    top: 1300px;
+    left: 120px;
+    font-size: 130%;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('file:///C:/Users/User/Downloads/escuela_danza/fonts/Litolight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+.latolight {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}

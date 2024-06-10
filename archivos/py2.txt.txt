@@ -1,0 +1,92 @@
+#6. Contar la cantidad de números positivos y negativos que hay en una lista de N enteros
+
+"""
+def lista(L,n):
+    for i in range (n):
+        num=int(input("numero"+str(i+1)+"?= "))
+        L.append(num)
+
+def posit(L):
+    c=0
+    for i in L:
+        if i>0:
+           c=c+1
+    return c
+
+def negat(L):
+    c=0
+    for i in L:
+        if i<0:
+           c=c+1
+    return c
+
+
+
+n=int(input("N? "))
+L=[]
+lista(L,n)
+print("hay",posit(L),"numeros positivos y",negat(L),"numeros negativos")
+
+"""
+#7. Obtener la máxima y mínima nota registrada en una lista de tamaño N.
+
+"""
+
+def lista(L,n):
+    for i in range(n):
+        num=int(input("nota"+str(i+1)+"? "))
+        L.append(num)
+    
+def mostrar(L):
+    print(L)
+    
+def my(L):
+    mayor=0
+    for i in (L):
+        if i > mayor:
+              mayor=i 
+    return mayor
+        
+def mn(L):
+    menor=1000
+    for i in (L):
+        if i < menor:
+              menor=i
+    return menor
+        
+n=int(input("N? "))
+L=[]
+lista(L,n)
+mostrar(L)
+print("la mayor nota registrada es de",my(L))
+print("la menor nota registrada es de",mn(L))
+
+"""
+#8. Ingresar valores positivos y negativos a una lista (para terminar se debe ingresar 0) y determinar cuál es el valor más alto y más bajo de la lista.def lista(L,n):
+
+
+def lista(L):
+    n=int(input("ingrese un valor= "))
+    for i in range (n):
+        while n!=0:
+            n=int(input("ingrese un valor= "))
+            L.append(n)
+
+def alto(L):
+    mayor=L[0]
+    for i in (L):
+        if i>mayor:
+            mayor=i
+    return mayor
+def bajo(L):
+    menor=L[0] 
+    for i in (L) :
+        if i<menor and i!= 0:
+            menor=i         
+    return menor
+
+
+L=[]
+lista(L)
+print("el valor mas alto de la lista es: ",alto(L))
+print("el valos mas bajo de la lista es: ",bajo(L))
